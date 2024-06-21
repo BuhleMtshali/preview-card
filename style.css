@@ -7,3 +7,7 @@
   --bg-headings: hsl(0, 0%, 95%);
   --paragraph-font: "Lexend Deca", sans-serif;
 }
+body {
+  margin: 0;
+  background-color: var(--bg-headings);
+}

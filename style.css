@@ -11,3 +11,14 @@ body {
   margin: 0;
   background-color: var(--bg-headings);
 }
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+.sedans,
+.suvs,
+.luxury {
+  margin: 20px;
+}

@@ -15,10 +15,32 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 80px;
+  margin-top: 180px;
 }
 .sedans,
 .suvs,
 .luxury {
-  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+}
+h3 {
+  font-family: var(--heading-font);
+  font-weight: 400px;
+  font-size: 25px;
+  color: var(--bg-headings);
+}
+.text {
+  color: var(--paragraph-color);
+  font-family: var(--paragraph-font);
+  font-size: 15px;
+}
+.sedans {
+  background-color: var(--orange-bg);
+}
+.suvs {
+  background-color: var(--dark-cyan);
+}
+.luxury {
+  background-color: var(--very-dark-cyan);
 }

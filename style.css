@@ -54,3 +54,18 @@ button {
   border-radius: 16px;
   background-color: var(--bg-headings);
 }
+.sedan-button {
+  color: var(--orange-bg);
+  font-weight: 600;
+  font-size: 14px;
+}
+.suv-button {
+  color: var(--dark-cyan);
+  font-size: 14px;
+  font-weight: 600;
+}
+.luxury-button {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--very-dark-cyan);
+}
